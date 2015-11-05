@@ -204,7 +204,7 @@ public class NWMainActivity extends AppCompatActivity {
 
                                 String weatherID = String.valueOf(jsonResponse.get(position).getIcao());
 
-//                                Toast.makeText(NWMainActivity.this, weatherID, Toast.LENGTH_SHORT).show();
+//                               Toast.makeText(NWMainActivity.this, weatherID, Toast.LENGTH_SHORT).show();
 
                                 Intent intent = new Intent(NWMainActivity.this, NWDetailActivity.class);
                                 intent.putExtra(INTENT, weatherID);
@@ -329,6 +329,5 @@ public class NWMainActivity extends AppCompatActivity {
                 return true;
         }
     }
-
     /** END SETTINGS MENU **/
 }

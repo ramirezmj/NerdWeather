@@ -1,2 +1,2 @@
 # NerdWeather
-App to check weather stations based on geo locations
+Android app to check weather stations based on geo locations
